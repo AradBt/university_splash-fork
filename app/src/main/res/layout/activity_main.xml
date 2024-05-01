@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#03141C"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+<EditText
+    android:id="@+id/edt_input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:textColor="@color/white"
+    android:textColorHint="@color/white"
+    android:padding="16dp"
+    android:textSize="25sp"
+    android:hint="name"
+  />
+    <EditText
+        android:id="@+id/edt_input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="16dp"
+        android:textSize="25sp"
+         android:hint="gender"
+        />
+    <EditText
+        android:id="@+id/edt_input3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="16dp"
+        android:textSize="25sp"
+        android:hint="age"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_submited"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="Submit And next to the activity"
+        />
+
+</LinearLayout>
